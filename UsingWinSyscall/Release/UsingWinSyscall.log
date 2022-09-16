@@ -1,0 +1,68 @@
+﻿  main.cpp
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(383,1): warning C4005: 'PROCESS_TERMINATE': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11415): message : see previous definition of 'PROCESS_TERMINATE'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(384,1): warning C4005: 'PROCESS_CREATE_THREAD': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11416): message : see previous definition of 'PROCESS_CREATE_THREAD'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(385,1): warning C4005: 'PROCESS_SET_SESSIONID': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11417): message : see previous definition of 'PROCESS_SET_SESSIONID'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(386,1): warning C4005: 'PROCESS_VM_OPERATION': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11418): message : see previous definition of 'PROCESS_VM_OPERATION'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(387,1): warning C4005: 'PROCESS_VM_READ': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11419): message : see previous definition of 'PROCESS_VM_READ'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(388,1): warning C4005: 'PROCESS_VM_WRITE': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11420): message : see previous definition of 'PROCESS_VM_WRITE'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(390,1): warning C4005: 'PROCESS_CREATE_PROCESS': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11422): message : see previous definition of 'PROCESS_CREATE_PROCESS'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(391,1): warning C4005: 'PROCESS_SET_QUOTA': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11423): message : see previous definition of 'PROCESS_SET_QUOTA'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(392,1): warning C4005: 'PROCESS_SET_INFORMATION': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11424): message : see previous definition of 'PROCESS_SET_INFORMATION'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(393,1): warning C4005: 'PROCESS_QUERY_INFORMATION': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11425): message : see previous definition of 'PROCESS_QUERY_INFORMATION'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(395,1): warning C4005: 'PROCESS_SUSPEND_RESUME': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11426): message : see previous definition of 'PROCESS_SUSPEND_RESUME'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(396,1): warning C4005: 'PROCESS_QUERY_LIMITED_INFORMATION': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11427): message : see previous definition of 'PROCESS_QUERY_LIMITED_INFORMATION'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(397,1): warning C4005: 'PROCESS_SET_LIMITED_INFORMATION': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11428): message : see previous definition of 'PROCESS_SET_LIMITED_INFORMATION'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\main.cpp(42,5): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\main.cpp(43,5): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\main.cpp(47,5): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\main.cpp(48,5): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+  ntdll.cpp
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\ntdll.cpp(28,25): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\ntdll.cpp(31,36): warning C4244: 'argument': conversion from '__int64' to 'DWORD', possible loss of data
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\ntdll.cpp(49,60): warning C4244: 'argument': conversion from '__int64' to 'ULONG', possible loss of data
+  pe.cpp
+  undocumented.cpp
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(383,1): warning C4005: 'PROCESS_TERMINATE': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11415): message : see previous definition of 'PROCESS_TERMINATE'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(384,1): warning C4005: 'PROCESS_CREATE_THREAD': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11416): message : see previous definition of 'PROCESS_CREATE_THREAD'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(385,1): warning C4005: 'PROCESS_SET_SESSIONID': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11417): message : see previous definition of 'PROCESS_SET_SESSIONID'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(386,1): warning C4005: 'PROCESS_VM_OPERATION': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11418): message : see previous definition of 'PROCESS_VM_OPERATION'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(387,1): warning C4005: 'PROCESS_VM_READ': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11419): message : see previous definition of 'PROCESS_VM_READ'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(388,1): warning C4005: 'PROCESS_VM_WRITE': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11420): message : see previous definition of 'PROCESS_VM_WRITE'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(390,1): warning C4005: 'PROCESS_CREATE_PROCESS': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11422): message : see previous definition of 'PROCESS_CREATE_PROCESS'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(391,1): warning C4005: 'PROCESS_SET_QUOTA': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11423): message : see previous definition of 'PROCESS_SET_QUOTA'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(392,1): warning C4005: 'PROCESS_SET_INFORMATION': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11424): message : see previous definition of 'PROCESS_SET_INFORMATION'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(393,1): warning C4005: 'PROCESS_QUERY_INFORMATION': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11425): message : see previous definition of 'PROCESS_QUERY_INFORMATION'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(395,1): warning C4005: 'PROCESS_SUSPEND_RESUME': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11426): message : see previous definition of 'PROCESS_SUSPEND_RESUME'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(396,1): warning C4005: 'PROCESS_QUERY_LIMITED_INFORMATION': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11427): message : see previous definition of 'PROCESS_QUERY_LIMITED_INFORMATION'
+D:\CodeLibrary\UsingWinSyscall\UsingWinSyscall\undocumented.h(397,1): warning C4005: 'PROCESS_SET_LIMITED_INFORMATION': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11428): message : see previous definition of 'PROCESS_SET_LIMITED_INFORMATION'
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 14 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  UsingWinSyscall.vcxproj -> D:\CodeLibrary\UsingWinSyscall\Release\UsingWinSyscall.exe
