@@ -67,10 +67,10 @@ int main()
 				out("%s\n\n", ProcessName);
 				if (!InfomationProcess->NextEntryOffset) break;
 				InfomationProcess = (PSYSTEM_PROCESS_INFORMATION)(((LPBYTE)InfomationProcess) + InfomationProcess->NextEntryOffset);
+				Sleep(500);
 			}
 			if (PBuffer) {
 				HeapFree(GetProcessHeap(), NULL, PBuffer);
-				break;
 			}
 			
 		}
