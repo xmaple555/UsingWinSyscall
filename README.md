@@ -5,6 +5,6 @@ UsingWinSyscall is a simple example of how to use Windows syscalls. Instead of u
 The program uses NTQuerySystemInformation to list  running processes. However, we notice that there is no GetProcAddress in the import address table, and the breakpoint at the address of NTQuerySystemInformation doesn't get hit.
 
 ![](https://i.imgur.com/yFnvgB1.png)
-![](https://i.imgur.com/hcGkOTQ.gif)
+![](demo.gif)
 
 
