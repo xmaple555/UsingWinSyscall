@@ -1,5 +1,5 @@
 # UsingWinSyscall
-UsingWinSyscall is a simple example of how to use Windows syscalls. Instead of using GetProcAddress, UsingWinSyscall defines the assembly of x86/x64 syscall to call ntapi. Therefore, we cannot find out what syscall it calls by looking it up in the import address table or setting breakpoints at GetProcAddress and the address of the syscall in ntdll. Since Windows OS frequently updates SSDT table, UsingWinSyscall reads ntdll file to find SSDT index.
+UsingWinSyscall is a simple example of how to use Windows syscalls. Instead of using GetProcAddress, UsingWinSyscall defines the assembly code of x86/x64 syscall to call ntapi functions. Therefore, we cannot find out what syscall it calls by looking it up in the import address table or setting breakpoints at GetProcAddress and the address of the syscall in ntdll. Since Windows OS frequently updates SSDT table, UsingWinSyscall reads ntdll file to find SSDT index.
 
 # References
 * [TitanHide](https://github.com/mrexodia/TitanHide)
