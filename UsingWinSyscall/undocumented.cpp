@@ -34,15 +34,15 @@ static BYTE* GetSyscall(const char* apiname) {
         return 0;
     }
     
-    BYTE* FunctionShellcode = (BYTE*)VirtualAlloc(NULL, sizeof(Syscall), MEM_COMMIT | MEM_RESERVE, PAGE_EXECUTE_READWRITE);
-    memcpy(FunctionShellcode, Syscall, sizeof(Syscall));
+    BYTE* FunctionAsmcode = (BYTE*)VirtualAlloc(NULL, sizeof(Syscall), MEM_COMMIT | MEM_RESERVE, PAGE_EXECUTE_READWRITE);
+    memcpy(FunctionAsmcode, Syscall, sizeof(Syscall));
 #ifdef _WIN64
-    *(DWORD*)(FunctionShellcode + 4) = SsdtIndex;
+    *(DWORD*)(FunctionAsmcode + 4) = SsdtIndex;
 #else
-    * (DWORD*)(FunctionShellcode + 6) = (DWORD)GetModuleHandle(L"ntdll") + 0x88d30;
-    * (DWORD*)(FunctionShellcode + 1) = SsdtIndex;
+    * (DWORD*)(FunctionAsmcode + 6) = (DWORD)GetModuleHandle(L"ntdll") + 0x88d30;
+    * (DWORD*)(FunctionAsmcode + 1) = SsdtIndex;
 #endif
-    return FunctionShellcode;
+    return FunctionAsmcode;
 }
 
 typedef NTSTATUS(NTAPI* tNtQuerySystemInformation)(
