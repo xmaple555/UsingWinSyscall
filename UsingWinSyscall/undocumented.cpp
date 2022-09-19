@@ -7,7 +7,7 @@
 BYTE Syscall[] = "\x4C\x8B\xD1\xB8\x00\x00\x00\x00\xF6\x04\x25\x08\x03\xFE\x7F\x01\x75\x03\x0F\x05\xC3\xCD\x2E\xC3";
 /*
 0:  4c 8b d1                  mov    r10,rcx
-3:  b8 00 00 00 00            mov    eax,0x0
+3:  b8 00 00 00 00            mov    eax,SsdtIndex
 8:  f6 04 25 08 03 fe 7f 01   test   BYTE PTR ds:0x7ffe0308,0x1
 10: 75 03                     jne    0x15
 12: 0f 05                     syscall
@@ -18,7 +18,7 @@ BYTE Syscall[] = "\x4C\x8B\xD1\xB8\x00\x00\x00\x00\xF6\x04\x25\x08\x03\xFE\x7F\x
 #else
 BYTE Syscall[] = "\xB8\x00\x00\x00\x00\xBA\x00\x00\x00\x00\xFF\xD2\xC2\x10\x00";
 /*
-0:  b8 00 00 00 00          mov    eax,0x0
+0:  b8 00 00 00 00          mov    eax,SsdtIndex
 5:  ba 00 00 00 00          mov    edx,ntdll+88d30
 a:  ff d2                   call   edx
 c:  c2 10 00                ret    0x10
